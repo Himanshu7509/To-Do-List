@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.contain-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.heading2{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-container{
+    width: 50%;
+    padding: 12px;
+}
+
+.todo-cont{
+    width: 100%;
+}
+
+.listStyle{
+    list-style: none;
+    padding: 4px;
+    margin-bottom: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelStyle{
+    margin-left: 6px;
+    margin-top: 8px;
+    padding: 8px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border-left: 5px solid darkred;
+    background-color: rgb(255, 170, 170);
+}
+
+.trashBtn{
+    border: none;
+    background-color: transparent;
+}
+
+.trashBtn:focus{
+    outline: none;
+    border: none;
+}
+
+.onChecked{
+    text-decoration: line-through;
+}
